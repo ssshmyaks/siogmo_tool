@@ -20,7 +20,7 @@ def crash():
 			await ctx.guild.create_text_channel(name=f'crashed-by-ssshmyaks-{i}')
 			channel = discord.utils.get(ctx.guild.channels, name=f'crashed-by-ssshmyaks-{i}')
 			for _ in range(randint(1, 10)):
-				await channel.send('@everyone\ncrashed by ssshmyaks')
+				await channel.send('@everyone\ncrashed by siogmo')
 			i += 1
 
 
